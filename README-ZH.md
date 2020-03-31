@@ -8,87 +8,87 @@
 [![iview version](https://img.shields.io/badge/iview-2.13.1-brightgreen.svg)](https://standardjs.com)
 [![author](https://img.shields.io/badge/author-Gavin-brightgreen.svg)](https://standardjs.com)
 
-> This is a front-end project of an e-commerce website based on VUE + VUEX + iView UI, and the version that combines with the backend API server is on **forMallServer** branch，welcome to fork or star
+> 这是一个基于VUE + VUEX + iView做的一个电商网站前端项目, 附带前后端分离实现版本(在**forMallServer**分支)，欢迎fork或star
 
 
-> The online demo: [https://powerdos.github.io/Mall-Vue/index.html](https://powerdos.github.io/Mall-Vue/index.html "Mall-Vue")
+> 项目预览地址(demo)： [https://powerdos.github.io/Mall-Vue/index.html](https://powerdos.github.io/Mall-Vue/index.html "Mall-Vue")
 
 ## Document
 [中文](https://github.com/PowerDos/Mall-Vue/blob/master/README-ZH.md) | [English](https://github.com/PowerDos/Mall-Vue/blob/master/README.md)
 
-## Prerequisites
-> The **master** branch is a pure front-end project，and the **forMallServer** branch is a front-end project that combines with the backend API server. The mall api server:[https://github.com/PowerDos/Mall-Server](https://github.com/PowerDos/Mall-Server)
+## 说明
+> **master**分支是单纯的前端项目，**forMallServer**分支为与后端接口结合的前端项目，附后端API项目地址：[https://github.com/PowerDos/Mall-Server](https://github.com/PowerDos/Mall-Server), 本项目仅供学习参考
 
 
-> The project on master branch is a pure front-end project，so the login account and password is fixed. Account: Gavin, Password: 123456
+> master 分支为纯前端项目，所以登陆密码是写死的，体验账号：Gavin,密码： 123456
 
-## How to run
+## Build Setup
 
 ``` bash
-# Install dependencies
+# 安装依赖
 npm install
 
-# Serve with hot reload at localhost:8080
+# 开发模式
 npm run dev
 
-# Build for production with minification
+# 打包
 npm run build
 ```
 
 ## TO-DO-LIST
-- [x] [HOME PAGE](#home-page)
-- [x] [LOGIN PAGE](#login-page)
-- [x] [SIGNUP PAGE](#signup-page)
-- [x] [PRODUCT LIST PAGE](#product-list-page)
-- [x] [PRODUCT DETAIL PAGE](#product-detail-page)
-- [x] [SHOPPING CART PAGE](#shopping-cart-page)
-- [x] [ORDER PAGE](#order-page)
-- [x] [PAY PAGE](#pay-page)
-- [x] [SUCCESS PAGE](#success-page)
-- [x] [FREEBACK PACE](#freeback-page)
-- [x] [MERCHANT PAGE](#merchant-page)
-- [x] [USER PAGE](#user-page)
+- [x] [首页 HOME PAGE](#首页-home-page)
+- [x] [登陆 LOGIN PAGE](#登陆-login-page)
+- [x] [注册 SIGNUP PAGE](#注册-signup-page)
+- [x] [商品搜索页面 PRODUCT LIST PAGE](#商品搜索页面-product-list-page)
+- [x] [商品详情页面 PRODUCT DETAIL PAGE](#商品详情页面-product-detail-page)
+- [x] [购物车页面 SHOPPING CART PAGE](#购物车页面-shopping-cart-page)
+- [x] [确认订单页面 ORDER PAGE](#确认订单页面-order-page)
+- [x] [支付页面 PAY PAGE](#支付页面-pay-page)
+- [x] [购买成功页面 SUCCESS PAGE](#购买成功页面-success-page)
+- [x] [反馈页面 FREEBACK PACE](#%E5%8F%8D%E9%A6%88%E9%A1%B5%E9%9D%A2-freeback-page)
+- [x] [商家店铺页面 MERCHANT PAGE](#商家店铺页面-merchant-page)
+- [x] [用户页面 USER PAGE](#用户页面-user-page)
 
 ## PAGE
 
-### HOME PAGE
+### 首页 HOME PAGE
 ![首页1](https://i.imgur.com/cNtx70M.png)
 ![首页2](https://i.imgur.com/ju5lfUc.png)
 ![首页3](https://i.imgur.com/K8MMYGq.png)
 
-### PRODUCT LIST PAGE
+### 商品搜索页面 PRODUCT LIST PAGE
 ![商品搜索页面1](https://i.imgur.com/Wu7TJ4G.png)
 ![商品搜索页面2](https://i.imgur.com/ZTDRB2X.png)
 
-### PRODUCT DETAIL PAGE
+### 商品详情页面 PRODUCT DETAIL PAGE
 ![商品详情页面1](https://i.imgur.com/0SQxUCN.png)
 ![商品详情页面2](https://i.imgur.com/kBiQM9O.png)
 ![商品详情页面3](https://i.imgur.com/aERYRmX.png)
 ![商品详情页面4](https://i.imgur.com/vRpvcvj.png)
 
-### SHOPPING CART PAGE
+### 购物车页面 SHOPPING CART PAGE
 ![购物车页面](https://i.imgur.com/m5tftN7.png)
 
-### ORDER PAGE
+### 确认订单页面 ORDER PAGE
 ![确认订单页面](https://i.imgur.com/iNM3CQH.png)
 
-### PAY PAGE
+### 支付页面 PAY PAGE
 ![支付页面](https://i.imgur.com/4OdCynR.png)
 
-### SUCCESS PAGE
+### 购买成功页面 SUCCESS PAGE
 ![购买成功页面](https://i.imgur.com/tOATGZP.png)
 
-### FREEBACK PACE
+### 反馈页面 FREEBACK PACE
 ![反馈页面](https://i.imgur.com/fbOZAH8.png)
 
-### MERCHANT PAGE
+### 商家店铺页面 MERCHANT PAGE
 ![商家店铺页面](https://i.imgur.com/Zgu54lw.png)
 
-### USER PAGE
+### 用户页面 USER PAGE
 ![用户页面](https://i.imgur.com/ttCwhyT.png)
 
-### LOGIN PAGE
+### 登陆 LOGIN PAGE
 ![登陆页面](https://i.imgur.com/d16GjOi.png)
 
-### SIGNUP PAGE
+### 注册 SIGNUP PAGE
 ![注册页面](https://i.imgur.com/no4Cb65.png)
